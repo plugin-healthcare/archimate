@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="plugin" id="id-690b66a0f4024b0fb014f7e801f7ae23" version="4.9.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="PLUGIN" id="id-690b66a0f4024b0fb014f7e801f7ae23" version="4.9.0">
   <folder name="Strategy" id="id-e29802ecce5f4972be10021099686fce" type="strategy"/>
   <folder name="Business" id="id-3a50f47451d441a8abcbcb5770a04d49" type="business">
     <element xsi:type="archimate:BusinessObject" name="Problem" id="id-2f77c15b509b4d6b91dabb3bd4bef6e6">
