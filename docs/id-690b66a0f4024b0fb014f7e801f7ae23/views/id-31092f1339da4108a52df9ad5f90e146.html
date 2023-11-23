@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>conceptual data model</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>conceptual data model</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-information_structure"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_information_structure" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-31092f1339da4108a52df9ad5f90e146.png" alt="conceptual data model" usemap="#id-31092f1339da4108a52df9ad5f90e146map"/>
+			   <map name="id-31092f1339da4108a52df9ad5f90e146map">
+				  		<area shape="rect" coords="392,10,512,65" href="../elements/id-27957bd14f3b4db88a950b8a0aba8a7f.html"  target="element">
+				  		<area shape="rect" coords="47,10,167,65" href="../elements/id-c3860e8a35284667a1a920c73d34f566.html"  target="element">
+				  		<area shape="rect" coords="743,119,863,174" href="../elements/id-8e23645706454f6a84d5a5aeedc0d476.html"  target="element">
+				  		<area shape="rect" coords="563,119,683,174" href="../elements/id-61670b97b2ac4c65992b94ce2816edf0.html"  target="element">
+				  		<area shape="rect" coords="392,119,512,174" href="../elements/id-3018745ebc8f478cb736a46aee303002.html"  target="element">
+				  		<area shape="rect" coords="47,119,167,174" href="../elements/id-2f77c15b509b4d6b91dabb3bd4bef6e6.html"  target="element">
+				  		<area shape="rect" coords="10,215,167,270" href="../elements/id-6fd7e669c68a43359e53183eda3ee839.html"  target="element">
+				  		<area shape="rect" coords="10,311,167,366" href="../elements/id-e7098f5a915e47cead7285e279a6ab38.html"  target="element">
+				  		<area shape="rect" coords="227,10,347,65" href="../elements/id-2f511a08defa4b229348b58b26c3c24b.html"  target="element">
+				  		<area shape="rect" coords="392,220,512,275" href="../elements/id-2d7911e054c44be7b61125946f716c82.html"  target="element">
+				  		<area shape="rect" coords="227,215,347,270" href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html"  target="element">
+				  		<area shape="rect" coords="227,119,347,174" href="../elements/id-565baebc42304b20975d8540864f41ea.html"  target="element">
+				  				<area shape="rect" coords="323,467,443,522" href="../elements/id-a25435903f4c4c28acc8be2cd451ae46.html"  target="element">
+				  				<area shape="rect" coords="418,377,551,432" href="../elements/id-33914b38ef3146829c7b7542bfb58f20.html"  target="element">
+				  				<area shape="rect" coords="225,377,360,432" href="../elements/id-598f32f7932e4abaa35f1d846ec70b32.html"  target="element">
+
+				          <area shape="rect" coords="203,335,576,528" href="../objects/id-a5496bd794b1404280d8457312928838.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">The conceptual model of PLUGIN is based on the Dutch HCIM 2020 release (https://zibs.nl/wiki/HCIM_Release_2020(EN)),
+which is an profile of FHIR v4. (https://simplifier.net/packages/nictiz.fhir.nl.r4.nl-core/0.10.0-beta.1)
+
+
+</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/id-a5496bd794b1404280d8457312928838.html" target="element"> Medication domain </a> </td>
+									           <td> <a href="../objects/id-a5496bd794b1404280d8457312928838.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-598f32f7932e4abaa35f1d846ec70b32.html" target="element"> MedicationRequest </a> </td>
+													    <td> <a href="../elements/id-598f32f7932e4abaa35f1d846ec70b32.html" target="element" class="i18n-elementtype-BusinessObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-33914b38ef3146829c7b7542bfb58f20.html" target="element"> MedicationDispense </a> </td>
+													    <td> <a href="../elements/id-33914b38ef3146829c7b7542bfb58f20.html" target="element" class="i18n-elementtype-BusinessObject">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a25435903f4c4c28acc8be2cd451ae46.html" target="element"> Pharmaceutical Product </a> </td>
+													    <td> <a href="../elements/id-a25435903f4c4c28acc8be2cd451ae46.html" target="element" class="i18n-elementtype-BusinessObject">
+													    </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+											    <td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+											    <td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2d7911e054c44be7b61125946f716c82.html" target="element"> Procedure </a> </td>
+											    <td> <a href="../elements/id-2d7911e054c44be7b61125946f716c82.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2f511a08defa4b229348b58b26c3c24b.html" target="element"> Observation </a> </td>
+											    <td> <a href="../elements/id-2f511a08defa4b229348b58b26c3c24b.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e7098f5a915e47cead7285e279a6ab38.html" target="element"> Questionnaire </a> </td>
+											    <td> <a href="../elements/id-e7098f5a915e47cead7285e279a6ab38.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-6fd7e669c68a43359e53183eda3ee839.html" target="element"> QuestionnaireResponse </a> </td>
+											    <td> <a href="../elements/id-6fd7e669c68a43359e53183eda3ee839.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-2f77c15b509b4d6b91dabb3bd4bef6e6.html" target="element"> Problem </a> </td>
+											    <td> <a href="../elements/id-2f77c15b509b4d6b91dabb3bd4bef6e6.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3018745ebc8f478cb736a46aee303002.html" target="element"> EpisodeOfCare </a> </td>
+											    <td> <a href="../elements/id-3018745ebc8f478cb736a46aee303002.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-61670b97b2ac4c65992b94ce2816edf0.html" target="element"> Healthcare Provider Organization </a> </td>
+											    <td> <a href="../elements/id-61670b97b2ac4c65992b94ce2816edf0.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-8e23645706454f6a84d5a5aeedc0d476.html" target="element"> Healthcare Provider Location </a> </td>
+											    <td> <a href="../elements/id-8e23645706454f6a84d5a5aeedc0d476.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-c3860e8a35284667a1a920c73d34f566.html" target="element"> Health Professional </a> </td>
+											    <td> <a href="../elements/id-c3860e8a35284667a1a920c73d34f566.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-27957bd14f3b4db88a950b8a0aba8a7f.html" target="element"> Service Request </a> </td>
+											    <td> <a href="../elements/id-27957bd14f3b4db88a950b8a0aba8a7f.html" target="element" class="i18n-elementtype-BusinessObject">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/id-5306c19b514147999994fc258febacab.html" target="element"> 1..1 </a> </td>
+																				<td> <a href="../elements/id-5306c19b514147999994fc258febacab.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-598f32f7932e4abaa35f1d846ec70b32.html" target="element"> MedicationRequest </a> </td>
+																				<td> <a href="../elements/id-a25435903f4c4c28acc8be2cd451ae46.html" target="element"> Pharmaceutical Product </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-ce19c61debdf43989b0a43b08b41aec6.html" target="element"> 0..1 </a> </td>
+																				<td> <a href="../elements/id-ce19c61debdf43989b0a43b08b41aec6.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-598f32f7932e4abaa35f1d846ec70b32.html" target="element"> MedicationRequest </a> </td>
+																				<td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-d3eb82d7720c4a70bcd449e05c5f6acb.html" target="element"> 1..1 </a> </td>
+																				<td> <a href="../elements/id-d3eb82d7720c4a70bcd449e05c5f6acb.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-33914b38ef3146829c7b7542bfb58f20.html" target="element"> MedicationDispense </a> </td>
+																				<td> <a href="../elements/id-a25435903f4c4c28acc8be2cd451ae46.html" target="element"> Pharmaceutical Product </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-9cd89d4c831e4007baeea4e3cce28030.html" target="element"> partOf 0..* </a> </td>
+																				<td> <a href="../elements/id-9cd89d4c831e4007baeea4e3cce28030.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-33914b38ef3146829c7b7542bfb58f20.html" target="element"> MedicationDispense </a> </td>
+																				<td> <a href="../elements/id-2d7911e054c44be7b61125946f716c82.html" target="element"> Procedure </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-ac6c6951032c407484f2d13974f441d2.html" target="element"> 0..* </a> </td>
+																				<td> <a href="../elements/id-ac6c6951032c407484f2d13974f441d2.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-33914b38ef3146829c7b7542bfb58f20.html" target="element"> MedicationDispense </a> </td>
+																				<td> <a href="../elements/id-598f32f7932e4abaa35f1d846ec70b32.html" target="element"> MedicationRequest </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/id-595da13be33745cbbe40fbf6fd2cd34c.html" target="element"> 0..* </a> </td>
+																		<td> <a href="../elements/id-595da13be33745cbbe40fbf6fd2cd34c.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+																		<td> <a href="../elements/id-2f77c15b509b4d6b91dabb3bd4bef6e6.html" target="element"> Problem </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d878b268db024c2c8456160f3e7df205.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-d878b268db024c2c8456160f3e7df205.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+																		<td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-1259f1a4642348ce92961737983f51f0.html" target="element"> serviceProvider 0..1 </a> </td>
+																		<td> <a href="../elements/id-1259f1a4642348ce92961737983f51f0.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+																		<td> <a href="../elements/id-61670b97b2ac4c65992b94ce2816edf0.html" target="element"> Healthcare Provider Organization </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-60cfe18b360d4d9aaa4d705b687a7e3a.html" target="element"> 1..1 </a> </td>
+																		<td> <a href="../elements/id-60cfe18b360d4d9aaa4d705b687a7e3a.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d7911e054c44be7b61125946f716c82.html" target="element"> Procedure </a> </td>
+																		<td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-9e729a02dde44e2180a05fa820271efe.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-9e729a02dde44e2180a05fa820271efe.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2d7911e054c44be7b61125946f716c82.html" target="element"> Procedure </a> </td>
+																		<td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-b3b808e58a424080b4532d1b1829a381.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-b3b808e58a424080b4532d1b1829a381.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2f511a08defa4b229348b58b26c3c24b.html" target="element"> Observation </a> </td>
+																		<td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-10672eae34b04b8f9f5782fbdf317561.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-10672eae34b04b8f9f5782fbdf317561.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6fd7e669c68a43359e53183eda3ee839.html" target="element"> QuestionnaireResponse </a> </td>
+																		<td> <a href="../elements/id-e7098f5a915e47cead7285e279a6ab38.html" target="element"> Questionnaire </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-d631027897c54f19ba750b46c72e237f.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-d631027897c54f19ba750b46c72e237f.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-6fd7e669c68a43359e53183eda3ee839.html" target="element"> QuestionnaireResponse </a> </td>
+																		<td> <a href="../elements/id-648edbb56b7a4d60a67acddd5dcba9de.html" target="element"> Encounter </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-d6d063a70737488a953b938c334f615d.html" target="element"> 1..1 </a> </td>
+																		<td> <a href="../elements/id-d6d063a70737488a953b938c334f615d.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2f77c15b509b4d6b91dabb3bd4bef6e6.html" target="element"> Problem </a> </td>
+																		<td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-5e35d742d2294a5ca5283b129297a6f8.html" target="element"> asserter 0..1 </a> </td>
+																		<td> <a href="../elements/id-5e35d742d2294a5ca5283b129297a6f8.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-2f77c15b509b4d6b91dabb3bd4bef6e6.html" target="element"> Problem </a> </td>
+																		<td> <a href="../elements/id-c3860e8a35284667a1a920c73d34f566.html" target="element"> Health Professional </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-8549e18cc9fd4bb3932b82f6117d6375.html" target="element"> 1..1 </a> </td>
+																		<td> <a href="../elements/id-8549e18cc9fd4bb3932b82f6117d6375.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3018745ebc8f478cb736a46aee303002.html" target="element"> EpisodeOfCare </a> </td>
+																		<td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-3b1d7a6db3b24dd5bd3bd8da5af2e4e2.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-3b1d7a6db3b24dd5bd3bd8da5af2e4e2.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-3018745ebc8f478cb736a46aee303002.html" target="element"> EpisodeOfCare </a> </td>
+																		<td> <a href="../elements/id-61670b97b2ac4c65992b94ce2816edf0.html" target="element"> Healthcare Provider Organization </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-93f47f3705b141489787e4df4022a521.html" target="element"> 0..1 </a> </td>
+																		<td> <a href="../elements/id-93f47f3705b141489787e4df4022a521.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-8e23645706454f6a84d5a5aeedc0d476.html" target="element"> Healthcare Provider Location </a> </td>
+																		<td> <a href="../elements/id-61670b97b2ac4c65992b94ce2816edf0.html" target="element"> Healthcare Provider Organization </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/id-38b74c9899cf4c4dbdb4d9c419c15760.html" target="element"> 1..1 </a> </td>
+																		<td> <a href="../elements/id-38b74c9899cf4c4dbdb4d9c419c15760.html" target="element" class="i18n-elementtype-AssociationRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/id-27957bd14f3b4db88a950b8a0aba8a7f.html" target="element"> Service Request </a> </td>
+																		<td> <a href="../elements/id-565baebc42304b20975d8540864f41ea.html" target="element"> Patient </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
