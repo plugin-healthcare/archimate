@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="PLUGIN" id="id-690b66a0f4024b0fb014f7e801f7ae23" version="4.9.0">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="PLUGIN" id="id-690b66a0f4024b0fb014f7e801f7ae23" version="5.0.0">
   <folder name="Strategy" id="id-e29802ecce5f4972be10021099686fce" type="strategy"/>
   <folder name="Business" id="id-3a50f47451d441a8abcbcb5770a04d49" type="business">
     <element xsi:type="archimate:BusinessObject" name="Problem" id="id-2f77c15b509b4d6b91dabb3bd4bef6e6">
@@ -117,18 +117,18 @@ FHIR: Practitioner</documentation>
     <element xsi:type="archimate:ArchimateDiagramModel" name="conceptual data model" id="id-31092f1339da4108a52df9ad5f90e146" viewpoint="information_structure">
       <child xsi:type="archimate:Group" id="id-a5496bd794b1404280d8457312928838" name="Medication domain" textAlignment="1">
         <bounds x="264" y="324" width="373" height="193"/>
-        <child xsi:type="archimate:DiagramObject" id="id-a36c630b3f854951b1173d9e0dc560ba" targetConnections="id-cbf7e99ea4834e6ba1a1eaae4560fad5" archimateElement="id-598f32f7932e4abaa35f1d846ec70b32">
+        <child xsi:type="archimate:DiagramObject" id="id-a36c630b3f854951b1173d9e0dc560ba" targetConnections="id-cbf7e99ea4834e6ba1a1eaae4560fad5" archimateElement="id-598f32f7932e4abaa35f1d846ec70b32" type="1">
           <bounds x="22" y="42" width="135" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-e35c144371144cf3a3821488160cdb55" source="id-a36c630b3f854951b1173d9e0dc560ba" target="id-357747ad4e6946469bcf656b67b472ff" archimateRelationship="id-5306c19b514147999994fc258febacab"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-1a3ea27b0c094e69b6a8ea9b766cb7d9" source="id-a36c630b3f854951b1173d9e0dc560ba" target="id-54bcee5615124676a752acdcbf385d28" archimateRelationship="id-ce19c61debdf43989b0a43b08b41aec6"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-472e0f92dcaa4c9dabcef6f8420d2de4" archimateElement="id-33914b38ef3146829c7b7542bfb58f20">
+        <child xsi:type="archimate:DiagramObject" id="id-472e0f92dcaa4c9dabcef6f8420d2de4" archimateElement="id-33914b38ef3146829c7b7542bfb58f20" type="1">
           <bounds x="215" y="42" width="133" height="55"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-6e46758496264b858955263cde8a1318" source="id-472e0f92dcaa4c9dabcef6f8420d2de4" target="id-357747ad4e6946469bcf656b67b472ff" archimateRelationship="id-d3eb82d7720c4a70bcd449e05c5f6acb"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-0c062d86da3049b88a8d8fdc8629e4ef" source="id-472e0f92dcaa4c9dabcef6f8420d2de4" target="id-6c722567f8c040d8bb4a60e072664e12" archimateRelationship="id-9cd89d4c831e4007baeea4e3cce28030"/>
           <sourceConnection xsi:type="archimate:Connection" id="id-cbf7e99ea4834e6ba1a1eaae4560fad5" source="id-472e0f92dcaa4c9dabcef6f8420d2de4" target="id-a36c630b3f854951b1173d9e0dc560ba" archimateRelationship="id-ac6c6951032c407484f2d13974f441d2"/>
         </child>
-        <child xsi:type="archimate:DiagramObject" id="id-357747ad4e6946469bcf656b67b472ff" targetConnections="id-e35c144371144cf3a3821488160cdb55 id-6e46758496264b858955263cde8a1318" archimateElement="id-a25435903f4c4c28acc8be2cd451ae46">
+        <child xsi:type="archimate:DiagramObject" id="id-357747ad4e6946469bcf656b67b472ff" targetConnections="id-e35c144371144cf3a3821488160cdb55 id-6e46758496264b858955263cde8a1318" archimateElement="id-a25435903f4c4c28acc8be2cd451ae46" type="1">
           <bounds x="120" y="132" width="120" height="55"/>
         </child>
         <documentation>The Medication domain includes a number of related resources:
@@ -146,60 +146,60 @@ MedicationStatement:
 This is a record of a medication being taken by a patient or that a medication has been given to a patient, where the record is the result of a report from the patient or another clinician. A medication statement is not a part of the prescribe->dispense->administer sequence but is a report that such a sequence (or at least a part of it) did take place, resulting in a belief that the patient has received a particular medication.
 </documentation>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-eecd68ce224b4debacde56cd327502f5" targetConnections="id-72c5810f5e18444fa7c1d7d9fba34b26 id-cad16b13b16f4c1f82ba6f35951627b3 id-96c7c62abe744ebd823743033111646c id-7063befedb0b4171a334d1fb0d0c3708 id-eaaa30932dfc4114980041027a250524 id-f36325c8d7024f4d8b521f7fa213af4e" archimateElement="id-565baebc42304b20975d8540864f41ea">
+      <child xsi:type="archimate:DiagramObject" id="id-eecd68ce224b4debacde56cd327502f5" targetConnections="id-72c5810f5e18444fa7c1d7d9fba34b26 id-cad16b13b16f4c1f82ba6f35951627b3 id-96c7c62abe744ebd823743033111646c id-7063befedb0b4171a334d1fb0d0c3708 id-eaaa30932dfc4114980041027a250524 id-f36325c8d7024f4d8b521f7fa213af4e" archimateElement="id-565baebc42304b20975d8540864f41ea" type="1">
         <bounds x="288" y="108" width="120" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-54bcee5615124676a752acdcbf385d28" targetConnections="id-abdf34fae6d949af9bab659b23e0057e id-812ea13776c54278a1e8928f71238fdd id-1a3ea27b0c094e69b6a8ea9b766cb7d9" archimateElement="id-648edbb56b7a4d60a67acddd5dcba9de">
+      <child xsi:type="archimate:DiagramObject" id="id-54bcee5615124676a752acdcbf385d28" targetConnections="id-abdf34fae6d949af9bab659b23e0057e id-812ea13776c54278a1e8928f71238fdd id-1a3ea27b0c094e69b6a8ea9b766cb7d9" archimateElement="id-648edbb56b7a4d60a67acddd5dcba9de" type="1">
         <bounds x="288" y="204" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bed0c08c62914ce599ac5caa672004f5" source="id-54bcee5615124676a752acdcbf385d28" target="id-b64ccc72c175423b829b434b207b84a6" archimateRelationship="id-595da13be33745cbbe40fbf6fd2cd34c"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-7063befedb0b4171a334d1fb0d0c3708" source="id-54bcee5615124676a752acdcbf385d28" target="id-eecd68ce224b4debacde56cd327502f5" archimateRelationship="id-d878b268db024c2c8456160f3e7df205"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c6b2826ce9164a1f8db7f1268d7bd1c6" source="id-54bcee5615124676a752acdcbf385d28" target="id-390831febf95418ab4b66d0149530642" archimateRelationship="id-1259f1a4642348ce92961737983f51f0"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-6c722567f8c040d8bb4a60e072664e12" targetConnections="id-0c062d86da3049b88a8d8fdc8629e4ef" archimateElement="id-2d7911e054c44be7b61125946f716c82">
+      <child xsi:type="archimate:DiagramObject" id="id-6c722567f8c040d8bb4a60e072664e12" targetConnections="id-0c062d86da3049b88a8d8fdc8629e4ef" archimateElement="id-2d7911e054c44be7b61125946f716c82" type="1">
         <bounds x="453" y="209" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-eaaa30932dfc4114980041027a250524" source="id-6c722567f8c040d8bb4a60e072664e12" target="id-eecd68ce224b4debacde56cd327502f5" archimateRelationship="id-60cfe18b360d4d9aaa4d705b687a7e3a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-812ea13776c54278a1e8928f71238fdd" source="id-6c722567f8c040d8bb4a60e072664e12" target="id-54bcee5615124676a752acdcbf385d28" archimateRelationship="id-9e729a02dde44e2180a05fa820271efe"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-52b80d5ceec44e5aab61d64814724764" archimateElement="id-2f511a08defa4b229348b58b26c3c24b">
+      <child xsi:type="archimate:DiagramObject" id="id-52b80d5ceec44e5aab61d64814724764" archimateElement="id-2f511a08defa4b229348b58b26c3c24b" type="1">
         <bounds x="288" y="-1" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-96c7c62abe744ebd823743033111646c" source="id-52b80d5ceec44e5aab61d64814724764" target="id-eecd68ce224b4debacde56cd327502f5" archimateRelationship="id-b3b808e58a424080b4532d1b1829a381">
           <bendpoint startY="58" endY="-51"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-f340f328001f434db90dd06c7741bda4" targetConnections="id-78e3d11dcb7140238f0e32bdcf37e7e5" archimateElement="id-e7098f5a915e47cead7285e279a6ab38">
+      <child xsi:type="archimate:DiagramObject" id="id-f340f328001f434db90dd06c7741bda4" targetConnections="id-78e3d11dcb7140238f0e32bdcf37e7e5" archimateElement="id-e7098f5a915e47cead7285e279a6ab38" type="1">
         <bounds x="71" y="300" width="157" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-7300746ee9534c44b07b0b0836fb296e" archimateElement="id-6fd7e669c68a43359e53183eda3ee839">
+      <child xsi:type="archimate:DiagramObject" id="id-7300746ee9534c44b07b0b0836fb296e" archimateElement="id-6fd7e669c68a43359e53183eda3ee839" type="1">
         <bounds x="71" y="204" width="157" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-78e3d11dcb7140238f0e32bdcf37e7e5" source="id-7300746ee9534c44b07b0b0836fb296e" target="id-f340f328001f434db90dd06c7741bda4" archimateRelationship="id-10672eae34b04b8f9f5782fbdf317561"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-abdf34fae6d949af9bab659b23e0057e" source="id-7300746ee9534c44b07b0b0836fb296e" target="id-54bcee5615124676a752acdcbf385d28" archimateRelationship="id-d631027897c54f19ba750b46c72e237f"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-b64ccc72c175423b829b434b207b84a6" targetConnections="id-bed0c08c62914ce599ac5caa672004f5" archimateElement="id-2f77c15b509b4d6b91dabb3bd4bef6e6">
+      <child xsi:type="archimate:DiagramObject" id="id-b64ccc72c175423b829b434b207b84a6" targetConnections="id-bed0c08c62914ce599ac5caa672004f5" archimateElement="id-2f77c15b509b4d6b91dabb3bd4bef6e6" type="1">
         <bounds x="108" y="108" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-72c5810f5e18444fa7c1d7d9fba34b26" source="id-b64ccc72c175423b829b434b207b84a6" target="id-eecd68ce224b4debacde56cd327502f5" archimateRelationship="id-d6d063a70737488a953b938c334f615d"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-6e32144f6ff3432eaa634a8b499982d3" source="id-b64ccc72c175423b829b434b207b84a6" target="id-24967c83907f43cb812db17de60ce7df" archimateRelationship="id-5e35d742d2294a5ca5283b129297a6f8"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-f69d6a75c7394be1842e585e2c9b2911" archimateElement="id-3018745ebc8f478cb736a46aee303002">
+      <child xsi:type="archimate:DiagramObject" id="id-f69d6a75c7394be1842e585e2c9b2911" archimateElement="id-3018745ebc8f478cb736a46aee303002" type="1">
         <bounds x="453" y="108" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-cad16b13b16f4c1f82ba6f35951627b3" source="id-f69d6a75c7394be1842e585e2c9b2911" target="id-eecd68ce224b4debacde56cd327502f5" archimateRelationship="id-8549e18cc9fd4bb3932b82f6117d6375"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-c87bd6ae58524ef0879b16a189c74f3d" source="id-f69d6a75c7394be1842e585e2c9b2911" target="id-390831febf95418ab4b66d0149530642" archimateRelationship="id-3b1d7a6db3b24dd5bd3bd8da5af2e4e2"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-390831febf95418ab4b66d0149530642" targetConnections="id-c87bd6ae58524ef0879b16a189c74f3d id-8b30dc10c27a4b4f8077aa691b27d765 id-c6b2826ce9164a1f8db7f1268d7bd1c6" archimateElement="id-61670b97b2ac4c65992b94ce2816edf0">
+      <child xsi:type="archimate:DiagramObject" id="id-390831febf95418ab4b66d0149530642" targetConnections="id-c87bd6ae58524ef0879b16a189c74f3d id-8b30dc10c27a4b4f8077aa691b27d765 id-c6b2826ce9164a1f8db7f1268d7bd1c6" archimateElement="id-61670b97b2ac4c65992b94ce2816edf0" type="1">
         <bounds x="624" y="108" width="120" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-5f5614bd909d4878bc6285d8f7f4cf84" archimateElement="id-8e23645706454f6a84d5a5aeedc0d476">
+      <child xsi:type="archimate:DiagramObject" id="id-5f5614bd909d4878bc6285d8f7f4cf84" archimateElement="id-8e23645706454f6a84d5a5aeedc0d476" type="1">
         <bounds x="804" y="108" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-8b30dc10c27a4b4f8077aa691b27d765" source="id-5f5614bd909d4878bc6285d8f7f4cf84" target="id-390831febf95418ab4b66d0149530642" archimateRelationship="id-93f47f3705b141489787e4df4022a521"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-24967c83907f43cb812db17de60ce7df" targetConnections="id-6e32144f6ff3432eaa634a8b499982d3" archimateElement="id-c3860e8a35284667a1a920c73d34f566">
+      <child xsi:type="archimate:DiagramObject" id="id-24967c83907f43cb812db17de60ce7df" targetConnections="id-6e32144f6ff3432eaa634a8b499982d3" archimateElement="id-c3860e8a35284667a1a920c73d34f566" type="1">
         <bounds x="108" y="-1" width="120" height="55"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-aa11b9be1ce2441ba9c37ed40cc332f6" archimateElement="id-27957bd14f3b4db88a950b8a0aba8a7f">
+      <child xsi:type="archimate:DiagramObject" id="id-aa11b9be1ce2441ba9c37ed40cc332f6" archimateElement="id-27957bd14f3b4db88a950b8a0aba8a7f" type="1">
         <bounds x="453" y="-1" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f36325c8d7024f4d8b521f7fa213af4e" source="id-aa11b9be1ce2441ba9c37ed40cc332f6" target="id-eecd68ce224b4debacde56cd327502f5" archimateRelationship="id-38b74c9899cf4c4dbdb4d9c419c15760"/>
       </child>
       <documentation>The conceptual model of PLUGIN is based on the Dutch HCIM 2020 release (https://zibs.nl/wiki/HCIM_Release_2020(EN)),
-which is an profile of FHIR v4. (https://simplifier.net/packages/nictiz.fhir.nl.r4.nl-core/0.10.0-beta.1)
+which has FHIR R4 profiles (https://simplifier.net/packages/nictiz.fhir.nl.r4.nl-core/)
 
 
 </documentation>
